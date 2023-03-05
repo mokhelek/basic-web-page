@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
 h1,
 h2,
 h3,
@@ -28,12 +33,12 @@ td p{
     color:rgb(177, 177, 177);
 }
 table{
-  
+    border-radius: 15px;
     background-color:  rgb(143, 1, 209);
     padding: 2rem;
 }
 #table-heading{
-    background-color: rgb(174, 43, 226) !important;
+    background-color: rgb(229, 0, 236) !important;
 }
 
 /* ********************************************     The intro section    **********************************************  */
@@ -135,6 +140,22 @@ table{
 
 }
 
+/*   ########################################## Historical Places Section ##########################################   */
+
+#historical-places-container{
+    padding: 3rem;
+}
+
+.grid-container-historical-places{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "col1 col2";
+    align-items: center;
+   
+}
+
+
+
 
 
 /*   ########################################## Media Quaries ##########################################   */
@@ -150,10 +171,19 @@ table{
         padding-left: 0rem !important;
     }
 }
-
+@media screen and (max-width:650px) {
+    #foreign-language-wrapper{
+        width:97% !important;
+    }
+}
 
 @media screen and (max-width: 900px) {
   .grid-container {
+    grid-template-columns: 1fr;
+
+  }
+
+  .grid-container-historical-places {
     grid-template-columns: 1fr;
     grid-template-areas: "col2" "col1";
     margin-top: 20px;
