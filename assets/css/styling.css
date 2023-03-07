@@ -295,7 +295,7 @@ table{
   }
 
   #intro-section {
-    height: 100%;
+    height: 100% !important;
   }
   #foreign-language-wrapper{
     padding: 0rem 1rem 0rem 1rem !important;
