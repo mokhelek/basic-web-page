@@ -46,8 +46,8 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    background-color: #fff;
-    color:#333;
+
+    color:#ff58bf;
 }
 
 #web2 {
@@ -95,7 +95,7 @@ nav a:hover{
 
 #my_name {
   font-size: 2.8rem;
-  margin: 0;
+  margin-bottom: 20px;
   color: rgb(255, 209, 27);
   text-shadow: 0 0 4px rgb(105, 105, 105);
   font-weight: 700 !important;
@@ -230,21 +230,23 @@ table{
 
 #historic-place-image{
     width: 100%;
-    border-radius: 15px;
-    border: 2px rgba(216, 0, 169, 0.581) solid;
+    border-radius: 8px;
+    border: 2px rgba(216, 0, 169, 0.445) solid;
 }
 
 #historic-place-title{
-    color:rgb(156, 1, 170);
+    color:rgba(58, 0, 64, 0.641);
     font-size: 1.1rem;
 }
 
-#historic-place-text{
+#historic-place-text li {
     font-size:0.85rem;
-    margin: 0;
+    margin-bottom: 6px;
     color:gray;
 }
-
+#historic-place-text{
+    margin-left:20px
+}
 
 /*   ########################################## Media Quaries ##########################################   */
 
