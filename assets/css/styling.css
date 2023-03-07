@@ -179,7 +179,7 @@ tr{
 
 td{
     padding: 0.4rem;
-    border-bottom: 1px #0a09606d solid ;
+    border-bottom: 1px rgba(255, 255, 255, 0.291) solid ;
    
 }
 td p{
@@ -193,8 +193,9 @@ table{
     padding: 2rem;
 }
 #table-heading{
-    background-color: rgba(255, 52, 174, 0.846) !important;
-    color:#333;
+    background-color: rgba(0, 128, 255, 0.167) !important;
+    color:#d8d4ff;
+    border: none !important;
 }
 
 
