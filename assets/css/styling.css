@@ -48,7 +48,7 @@ nav li{
 nav a{
     display: block;
     padding: 10px;
-    color:pink;
+    color:rgb(218, 218, 218);
     text-decoration: none;
 }
 nav a:hover{
@@ -83,6 +83,8 @@ nav a:hover{
     margin:3rem;
     display: grid;
     align-items: center;
+    width:100%;
+    overflow-x: hidden;
 }
 
 .grid-container {
@@ -145,6 +147,7 @@ nav a:hover{
 
 #which-city {
   padding: 2rem;
+  overflow-x: hidden;
 }
 
 .grid-container-which-city {
@@ -201,6 +204,8 @@ table{
 #historic-places-section{
     background-color: rgb(218, 218, 218);
     padding-bottom: 2rem;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 #historical-places-container{
