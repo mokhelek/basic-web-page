@@ -72,15 +72,6 @@ nav a:hover{
 
 /* ********************************************     The intro section    **********************************************  */
 
-#intro-section {
-  height: 600px;
-  background-image: url("./images/bg5.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: grid;
-  align-items: center;
-}
 
 #intro-container{
     margin:3rem;
