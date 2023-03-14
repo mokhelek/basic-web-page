@@ -79,19 +79,13 @@ nav a:hover{
 /* ********************************************     The intro section    **********************************************  */
 
 
-#intro-container{
-    margin:3rem;
-    display: grid;
-    align-items: center;
-    width:100%;
-    overflow-x: hidden;
-}
+
 
 .grid-container {
   display: grid;
   grid-template-columns: 60% 40%;
   align-items: center;
-  
+  padding:1rem;
 }
 
 #profile_image {
@@ -112,10 +106,10 @@ nav a:hover{
 .intro-text-wrapper {
   border-left: 3px rgba(255, 255, 0, 0.457) solid;
   padding: 0.1rem 0.1rem 0.1rem 1.2rem;
-  width: 80%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.144);
   margin-bottom: 1rem;
-  padding-right: 1rem !important;
+  
 }
 
 .intro-text-wrapper p {
@@ -267,7 +261,10 @@ table{
 @media screen and (max-width:450px) {
     #intro-container{
         margin: 1rem !important;
-        margin-right: 3rem !important;
+        margin-right: 2rem !important;
+    }
+    .intro-text-wrapper{
+        width:100% !important;
     }
     .container{
         padding-right: 4rem !important;
@@ -275,6 +272,17 @@ table{
     }
 }
 @media screen and (max-width:650px) {
+    #intro-container{
+        margin: 1rem !important;
+        margin-right: 2rem !important;
+    }
+    .intro-text-wrapper{
+        width:100% !important;
+    }
+    .container{
+        padding-right: 4rem !important;
+        padding-left: 0rem !important;
+    }
     #foreign-language-wrapper{
         width:97% !important;
     }
